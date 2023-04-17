@@ -1,0 +1,19 @@
+{
+    "port": 4545,
+    "protocol": "http",
+    "name": "sample stub",
+    "recordRequests": true,
+    "allowCORS": true,
+    "stubs": [
+        <% include ../stubs/payment-start-stub.json %>,
+        <% include ../stubs/payment-validate-stub.json %>,
+        <% include ../stubs/payment-probe-stub.json %>,
+        {
+            "responses":[{
+                "is":{
+                    "statusCode": 404
+                }
+            }]
+        }
+    ]
+   }

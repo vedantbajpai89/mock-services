@@ -1,0 +1,18 @@
+{
+  "name": "mock-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "mock": "mb --configfile imposters.ejs --allowInjection --allowCORS --loglevel debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "mountebank": "^2.8.2",
+    "node-fetch": "^3.3.1"
+  }
+}

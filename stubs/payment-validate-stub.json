@@ -1,0 +1,18 @@
+{
+    "predicates": [
+       {
+         "equals": {
+           "method": "POST",
+           "path": "/amazon-services/rest/payment/validate"
+         },
+         "matches": {
+          "body": "<%- stringify(filename, 'request-body/payment-validate-request.json')  %>"
+         }
+       }
+     ],
+    "responses": [
+      {
+        "inject": "<%- stringify(filename, 'stubs/payment.js')%>"
+       }
+    ]
+}

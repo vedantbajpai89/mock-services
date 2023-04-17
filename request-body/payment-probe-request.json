@@ -1,0 +1,20 @@
+{
+    "brandName": "Amazon",
+    "accountHolder" :{
+        "email":"test@amazon.com",
+        "phoneNumber": "1122334455"
+    },
+    "paymentAmount": 200.00,
+    "currencyCode": "INR",
+    "quoteId": "659025",
+    "isAutoRenewal": true,
+    "payer": {
+        "firstName": "Vedant",
+        "lastName": "Bajpai",
+        "line1": "Some random",
+        "line2" : "address",
+        "pinCode": "226021"
+    },
+    "reference": "b0e-396yh-t767",
+    "sessionId": "RUNDM0UzNMkL08UHjkuYT987ILMK"
+}
